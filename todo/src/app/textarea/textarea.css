@@ -1,0 +1,43 @@
+.textarea{
+    width: 55%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+.textarea-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.icon{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.icon-2{
+    margin-right: 15px;
+}
+.selected{
+    box-shadow: 0px 0px 5px rgb(116, 112, 112);
+}
+
+.inputFild{
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    color: black;
+    padding: 2px;
+}
+
+@media screen and (max-width: 680px) {
+    .textarea{
+        width: 90%;
+        padding: 10px;
+        min-height: 60vh;
+    }
+    .icons-update-delete{
+        display: flex;
+        margin-top: 10px;
+    }
+  }

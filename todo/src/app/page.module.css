@@ -1,0 +1,21 @@
+.main{
+  background-color: #fff;
+  color: black;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.logo{
+  padding: 20px 40px;
+  display: flex;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: 800;
+  align-items: center;
+}
+.container{
+  display: flex;
+  background-color: #edecec;
+  padding: 20px 60px;
+  flex-wrap: wrap;
+}
